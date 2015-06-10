@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="1dp"
+    android:background="@android:color/white">
+
+    <org.lucasr.twowayview.TwoWayView
+        android:id="@+id/daily_weather_list"
+        style="@style/TwoWayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent" />
+
+</RelativeLayout>

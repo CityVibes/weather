@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <NumberPicker
+        android:id="@+id/city_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/dialog_pick"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city_picker"
+        android:layout_toEndOf="@+id/city_picker"
+        android:layout_toRightOf="@+id/city_picker"
+        android:text="@string/picker_pick_btn" />
+
+    <Button
+        android:id="@+id/dialog_cancel"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dialog_pick"
+        android:layout_toLeftOf="@+id/city_picker"
+        android:layout_toStartOf="@+id/city_picker"
+        android:text="@string/picker_cancel_btn" />
+</RelativeLayout>

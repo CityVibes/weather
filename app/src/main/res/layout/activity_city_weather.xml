@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@color/customOpaqueGray">
+
+    <FrameLayout
+        android:id="@+id/city_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="cityPanel"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/customGray" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/city_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/customGray" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/city_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/customGray" />
+
+    </FrameLayout>
+
+</RelativeLayout>

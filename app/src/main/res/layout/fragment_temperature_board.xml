@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="1dp"
+    android:background="@android:color/white"
+    tools:context="com.weather.weather.fragments.TemperatureBoardFragment">
+
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/sun" />
+
+    <Button
+        android:id="@+id/details_smthn_btn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/weather_icon"
+        android:layout_toEndOf="@+id/weather_icon"
+        android:layout_toRightOf="@+id/weather_icon"
+        android:text="8" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detail_current_temp_txt"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+        android:text="Temperature:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/weather_icon"
+        android:layout_toLeftOf="@+id/weather_icon"
+        android:layout_toStartOf="@+id/weather_icon"
+        android:text="\u2103"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/detail_current_temp_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+        android:text="23"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

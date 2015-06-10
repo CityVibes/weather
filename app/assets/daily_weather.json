@@ -1,0 +1,47 @@
+[
+  {
+    "temperature": 23,
+    "icon": "cloudy",
+    "time": "10:00"
+  },
+  {
+    "temperature": 12,
+    "icon": "little_rain",
+    "time": "11:00"
+  },
+  {
+    "temperature": 14,
+    "icon": "thunder",
+    "time": "12:00"
+  },
+  {
+    "temperature": 18,
+    "icon": "much_rain",
+    "time": "13:00"
+  },
+  {
+    "temperature": -10,
+    "icon": "moon_cloud",
+    "time": "14:00"
+  },
+  {
+    "temperature": -15,
+    "icon": "sun_cloud",
+    "time": "15:00"
+  },
+  {
+    "temperature": 1002,
+    "icon": "sun",
+    "time": "16:00"
+  },
+  {
+    "temperature": 45,
+    "icon": "moon_cloud",
+    "time": "17:00"
+  },
+  {
+    "temperature": 87,
+    "icon": "sun_cloud",
+    "time": "18:00"
+  }
+]
